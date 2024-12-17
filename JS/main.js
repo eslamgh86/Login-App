@@ -24,7 +24,7 @@ function checkExistUser() {
     ) {
 
       localStorage.setItem("savedEmail", existUsers[i].emailUser); // Save the email
-        window.open("./welcome.html","_self");
+        window.open("welcome.html","_self");
         // return true;
 
     } 

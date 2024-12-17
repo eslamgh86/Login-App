@@ -14,5 +14,5 @@ console.log(WelocomeMsg.innerHTML)
 
 
 logoutBtn.addEventListener('click', function(){
-  window.open("./index.html","_self")
+  window.open("index.html","_self")
 })

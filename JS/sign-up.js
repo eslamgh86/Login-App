@@ -37,7 +37,7 @@ if ( !checkIsExist() && isNameValid && isEmailValid && isPasswordValid){
   existUsers.push(user);
   localStorage.setItem("MyStorage", JSON.stringify(existUsers));
   clearUser();
-  window.open("./index.html", "_self")
+  window.open("index.html", "_self")
   
   console.log(existUsers);
 }else{
