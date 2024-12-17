@@ -1,0 +1,90 @@
+/*! creating variables */
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../Font-Google/Poppins-Regular.ttf);
+  font-weight: 400px;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../Font-Google/Poppins-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../Font-Google/Montserrat-Thin.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../Font-Google/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../Font-Google/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../Font-Google/Montserrat-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+
+
+/*! creating variables */
+:root {
+  --body-font: "Poppins";
+  --title-font: "Montserrat";
+}
+
+/*! Global styling */
+
+body {
+  font-family: var(--body-font);
+  background-color: #24353F;
+}
+
+.form-control::placeholder { 
+  color: rgba(255, 255, 255, 0.589);
+  font-size: medium;
+
+}
+
+
+.navbar{
+  background-color: #24353F !important;
+}
+/* input:focus {
+
+outline: none !important;
+
+} */
+
+/** not working .form-control */
+.form-control{
+  outline: none ;
+}
+
+.form-control:focus{
+  outline: none ;
+}
+
+
+
+
+h1{
+  color: #17A2B8;
+  font-size: 2.5rem;
+  
+}
+
+
+
+/*? End of Style==> By Eslam Gomaa*/

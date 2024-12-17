@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sign-In</title>
+  <!--! BS-CSS - Global styling -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <!--! Fontawsome - Global styling -->
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <!--! CSS - Global styling -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!--^  Sections -->
+
+  <form id="register" class="register-form">
+    <div class="container">
+      <div class="group m-auto w-75 p-5 my-5 shadow-lg p-3 mb-5">
+        <h1 class="text-center">Smart Login system</h1>
+        <input id="emailUser" type="email" class="form-control my-3 bg-transparent text-white " placeholder="Enter Your Email"/>
+        <input id="passUser" type="password" class="form-control my-3 bg-transparent text-white" placeholder="Enter Your password"/>
+
+        
+
+        <div class="alert alert-danger d-none" id="successAlert">login succceded</div>
+
+        <div class="d-grid gap-2">
+          <button id="btnSignIn" class="btn btn-primary bg-transparent text-info" type="button">Sign-In</button>
+        </div>
+
+        <p class="mt-5 text-center text-white"> Do you have an account? <a class="text-white text-decoration-none" href="./sign-up.html">sign-Up</a></p>
+      </div>
+  </form>
+
+  <!--? End of HTML==> By Eslam Gomaa -->
+  <!--! BS-JS- - Global styling -->
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+  <!--! Main-JS- - Global styling -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./JS/main.js"></script>
+</body>
+</html>
